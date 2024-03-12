@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-// function Header(){
-//   return(
-//     <Text>Componenet Added</Text>
-//   );
-// }
+function Header(){
+   return(
+    <Text>Componenet Added</Text>
+  );
+}
 
 export default function App() {
   return (
