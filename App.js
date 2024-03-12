@@ -7,6 +7,14 @@ function Header(){
   );
 }
 
+function Error ({message, update}) {
+  return (
+    <View>
+      <Text style={styles.error}>{message}</Text>
+    </View>
+  );
+}
+
 export default function App() {
   return (
     <View style={styles.container}>
