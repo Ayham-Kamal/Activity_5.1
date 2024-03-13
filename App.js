@@ -7,6 +7,12 @@ function Header(){
   );
 }
 
+function Footer(){
+  return(
+    <Text>This is a Footer</Text>
+  );
+}
+
 function Error ({message, update}) {
   return (
     <View>
@@ -20,6 +26,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <Header/>
+      <Footer/>
     </View>
   );
 }
