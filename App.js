@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 function Kacem(){
   return(
-    <text>This is Kacem's component !</text>
+    <text>This is Kacem's component!</text>
   )
 }
 
